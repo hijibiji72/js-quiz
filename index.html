@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Quiz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/checkboxes.css" />
+</head>
+<body>
+    <div id="app">
+        <div class="js_timer">
+            <span class="title">Timer</span>
+            <span class="time">
+                <span class="minutes">0</span>
+                <span>:</span>
+                <span class="seconds">00</span>
+        </div>
+        <div class="js_question">
+            <p class="title">Question Title</p>
+            <ul class="options">
+                <li>
+                    <label class="checkbox-container">One
+                        <input type="checkbox" checked />
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox-container">Two
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label class="checkbox-container">Three
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+        <div class="js_next">
+            <button>Next</button>
+        </div>
+    </div>
+    
+    <script src="js/app.js" defer type="module"></script>
+</body>
+</html>
